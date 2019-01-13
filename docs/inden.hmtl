@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Startpage III</title>
+		
+		<!-- Favicon(s) -->
+		<link rel="shortcut icon" href="./resources/favicon.ico" type="image/x-icon" />
+		
+		<!-- Meta tags -->
+		<meta name="description" content="A simple custom home page." />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="./css/BoxStyle.css" />
+		<link rel="stylesheet" href="./css/TextStyle.css" />
+		<link rel="stylesheet" href="./css/BasicStyle.css" />
+		<link rel="stylesheet" href="./css/DeviceStyle.css" />
+		<link rel="stylesheet" href="./css/SearchBarStyle.css" />
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+		
+	</head>
+	<body>
+		<div class="full-center non-select container">
+			<div id="search-bar-container" class="box-shadow row">
+				<div id="search-bar-title" class="col-auto">
+					<span class="light-blue-text bold-text">$</span>
+					<span class="green-text bold-text">find</span>
+				</div> <!-- serach-bar-title -->
+				<div id="search-bar" class="col-10">
+					<!-- <form method="get" action="https://www.google.com/search?q=%s&pws=0&gl=us&gws_rd=cr"> -->
+					<form method="get" action="http://duckduckgo.com/">
+						<input id="search-bar-query" type="text" maxlength="72" autofocus="on" autocomplete="off" name="q">
+					</form>
+				</div> <!-- search-bar-query -->
+			</div> <!-- search-bar-container -->
+			
+			<div id="box-container" class="row">
+				
+				<div id="first-buffer" class="buffer-box hidden col-4"></div>
+				
+				<div id="first-box" class="box main-box box-clear box-shadow col-4">
+					<div class="box-title-container">
+						<span class="light-blue-text bold-text">$</span>
+						<span class="green-text bold-text">grep</span>
+						<span class="red-text bold-text hidden">"</span>
+						<input class="box-title red-text bold-text" type="text" maxlength="15" >
+						<span class="red-text bold-text hidden">"</span>
+					</div> <!-- box-title-container -->
+					<div class="box-link-container">
+						<ul class="box-link-list">
+							<li>
+								<span class="ed-button hidden light-blue-text bold-text"></span>
+								<a class="box-link light-blue-text bold-text" href="" /></a>
+							</li>
+							<li>
+								<span class="ed-button hidden light-blue-text bold-text"></span>
+								<a class="box-link light-blue-text bold-text" href="" /></a>
+							</li>
+							<li>
+								<span class="ed-button hidden light-blue-text bold-text"></span>
+								<a class="box-link light-blue-text bold-text" href="" /></a>
+							</li>
+						</ul>
+					</div> <!-- box-link-container -->
+				</div> <!-- first-box -->
+				
+				<div id="second-buffer" class="buffer-box hidden col-4"></div>
+				
+				<div id="second-box" class="box main-box box-clear box-shadow col-4">
+					<div class="box-title-container">
+						<span class="light-blue-text bold-text">$</span>
+						<span class="green-text bold-text">grep</span>
+						<span class="red-text bold-text hidden">"</span>
+						<input class="box-title red-text bold-text" type="text" maxlength="15" >
+						<span class="red-text bold-text hidden">"</span>
+					</div> <!-- box-title-container -->
+					<div class="box-link-container">
+						<ul class="box-link-list">
+							<li>
+								<span class="ed-button hidden light-blue-text bold-text"></span>
+								<a class="box-link light-blue-text bold-text" href="" /></a>
+							</li>
+							<li>
+								<span class="ed-button hidden light-blue-text bold-text"></span>
+								<a class="box-link light-blue-text bold-text" href="" /></a>
+							</li>
+							<li>
+								<span class="ed-button hidden light-blue-text bold-text"></span>
+								<a class="box-link light-blue-text bold-text" href="" /></a>
+							</li>
+						</ul>
+					</div> <!-- box-link-container -->
+				</div> <!-- second-box -->
+				
+				<div id="third-buffer" class="buffer-box hidden col-4"></div>
+				
+				<div id="third-box" class="box main-box box-clear box-shadow col-4">
+					<div class="box-title-container">
+						<span class="light-blue-text bold-text">$</span>
+						<span class="green-text bold-text">grep</span>
+						<span class="red-text bold-text hidden">"</span>
+						<input class="box-title red-text bold-text" type="text" maxlength="15" >
+						<span class="red-text bold-text hidden">"</span>
+					</div> <!-- box-title-container -->
+					<div class="box-link-container">
+						<ul class="box-link-list">
+							<li>
+								<span class="ed-button hidden light-blue-text bold-text"></span>
+								<a class="box-link light-blue-text bold-text" href="" /></a>
+							</li>
+							<li>
+								<span class="ed-button hidden light-blue-text bold-text"></span>
+								<a class="box-link light-blue-text bold-text" href="" /></a>
+							</li>
+							<li>
+								<span class="ed-button hidden light-blue-text bold-text"></span>
+								<a class="box-link light-blue-text bold-text" href="" /></a>
+							</li>
+						</ul>
+					</div> <!-- box-link-container -->
+				</div> <!-- third-box -->
+			</div> <!-- box-container -->
+		
+			<div id="settings-box-container" class="row">
+				<div id="link-settings-container" class="hidden row">
+					<div id="link-settings" class="edit-box box-shadow hidden col-12">
+						<input id="edit-link-title" class="hidden light-blue-text bold-text" type="text" maxlength="15" ><br/>
+						<input id="edit-link-url" class="hidden green-text bold-text" type="text" maxlength="60" >
+					</div>
+				</div> <!-- link-settings-container -->
+				
+				<div class="settings-buffer hidden col-4"></div>
+				<div id="first-settings-box" class="settings-box box-shadow hidden col-4">
+					<div class="enable-setting">
+						<span class="light-blue-text bold-text">$</span>
+						<span class="e-button green-text bold-text">enabled</span>
+						<span style="margin-right: 26px"></span>
+						<span class="light-blue-text bold-text">$</span>
+						<span class="l-button green-text bold-text">unlocked</span>
+					</div>
+				</div> <!-- first-settings-box -->
+				
+				<div id="second-settings-buffer" class="hidden col-4"></div>
+				<div id="second-settings-box" class="settings-box box-shadow hidden col-4">
+					<div class="enable-setting">
+						<span class="light-blue-text bold-text">$</span>
+						<span class="e-button green-text bold-text">enabled</span>
+						<span style="margin-right: 26px"></span>
+						<span class="light-blue-text bold-text">$</span>
+						<span class="l-button green-text bold-text">unlocked</span>
+					</div>
+				</div> <!-- second-settings-box -->
+				
+				<div class="settings-buffer hidden col-4"></div>
+				<div id="third-settings-box" class="settings-box box-shadow hidden col-4">
+					<div class="enable-setting">
+						<span class="light-blue-text bold-text">$</span>
+						<span class="e-button green-text bold-text">enabled</span>
+						<span style="margin-right: 26px"></span>
+						<span class="light-blue-text bold-text">$</span>
+						<span class="l-button green-text bold-text">unlocked</span>
+					</div>
+				</div> <!-- third-settings-box -->
+			</div> <!-- settings-box-container -->
+			
+			<div id="clock-container">
+				<span id="clock"></span>
+			</div>
+			
+		</div> <!-- full-center -->
+		
+		<div id="jebus-container" class="hidden">
+			<img id="jebus" src="./resources/dancingjesus.gif">
+		</div> <!-- jebus-container -->
+		
+		
+		<input id="settings-button" class="edit-disabled" type="image" src="./resources/gear-icon.png">
+		
+		<!-- Javascript. Placed at the end so the page load faster. -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		
+		<script type="text/javascript" src="./js/Default.js"></script>
+		<script type="text/javascript" src="./js/BoxScript.js"></script>
+		<script type="text/javascript" src="./js/ClockScript.js"></script>
+		<script type="text/javascript" src="./js/JesusScript.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function()
+			{
+				LoadBoxes(dTitles, [dlName0, dlName1, dlName2], [dlURL0, dlURL1, dlURL2]);
+				LoadJesus();
+				setInterval(LoadClock(), 1000);
+			});
+		</script>
+	</body>
+</html>
